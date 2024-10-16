@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de identificação</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Sistema de identificação</h1>
+    </header>
+    <section>
+        <div>
+            <p>
+                <label>Informe a sua idade:
+                    <input type="number" id="age" name="age"/>
+                </label></br>
+
+            </p>
+            <p>
+                Sexo:
+                    <input type="radio" id="m" name="sexo" checked/><label for="m">Masculino</label>
+                    <input type="radio" id="f" name="sexo"/><label for="f">Feminino</label>  
+            </p>
+            <p>
+                    <input type="button" id="verificar" name="verificar" value="Verificar" onclick="verificar()"/>
+            </p>
+        </div>
+        </div>
+        <div id="msg">
+            Preencha os dados acima para ver o resultado!
+        </div>
+    </section>
+    <footer>
+        <p>&copy; CursoemVideo</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

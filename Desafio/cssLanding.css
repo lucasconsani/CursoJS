@@ -11,7 +11,7 @@ body{
     width: 1280px;
     height: 3729px;
     margin-top: 80px;
-    margin-left: 80px;
+    margin-left: 25%;
 }
 h1{
     font-style: bold;
@@ -43,6 +43,7 @@ h3{
     width: 100%;
 }
 .imagemLista{
+    object-fit: cover;
     height: 350px;
     width: 100%;
     border-radius: 28px;
